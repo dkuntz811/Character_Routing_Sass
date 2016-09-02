@@ -1,0 +1,13 @@
+CSS Preprocessor
+
+With CSS individual elements are selected and then styled.
+  If you use the same properties on multiple elements, they have to be typed in over and
+	over again.
+
+Allows the use of variables
+
+Allows the use of Mix-ins (functions)
+
+We can reuse these properties that we define to solve this
+
+Sass is going to be used with Rails (already on our computer, Thanks, Denny!)

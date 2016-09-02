@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="utf-8">
+		<title>Angular Routes</title>
+		<script src="/vendors/angular.min.js"></script>
+		<script src="/vendors/angular-route.min.js"></script>
+		<script type="text/javascript" src="/scripts/client.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" charset="utf-8">
+		<link rel="stylesheet" href="/styles/sass.scss"/>
+		<link rel="stylesheet" href="/styles/sass/partials/_variables.scss"  charset="utf-8">
+		<link rel="stylesheet" href="/styles/sass/partials/_layout.scss"  charset="utf-8">
+		<link rel="stylesheet" href="/styles/sass/partials/_mixins.scss"  charset="utf-8">
+		<link rel="stylesheet" href="/styles/sass/partials/_normalize.scss"  charset="utf-8">
+		<link rel="stylesheet" href="/styles/sass/partials/_base.scss"  charset="utf-8">
+		<link rel="stylesheet" href="/styles/style.css"  charset="utf-8">
+	</head>
+	<body id = "wrapper">
+	  <h1 class = "jumbotron" ><img ng-src="/images/strangerthings.jpeg" class="img-fluid" alt="Responsive image"></img></h1>
+		<div ng-include="'/views/partials/nav.html'"></div>
+		<!-- ng-include requires a string hence the extra quotes   -->
+    <main ng-view></main>
+		<footer>
+		<h3>"There’s a terrific sense of mystery."</h3>
+	</footer>
+	</body>
+</html>
